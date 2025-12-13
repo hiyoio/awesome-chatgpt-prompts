@@ -351,7 +351,7 @@ Isometric City Diorama,"{
 }",FALSE,STRUCTURED,f
 The Silent Standoff,"High-angle top-down view of a dimly lit abandoned courtyard, cracked concrete ground, scattered old markings and faded impact dents, long eerie character shadows cast off-frame, no violence depicted, dark Teal palette with a strong golden beam, thick outlines, 2D animated cartoon look, flat shading, extreme contrast, atmospheric tension.",FALSE,IMAGE,f
 Lifestyle Product Images,"Using the uploaded product image of ${Product Name:MacBook Pro}, create an engaging lifestyle scene showing realistic usage in ${Lifestyle Scenario:Office}. Target visuals specifically for ${Audience Demographics:Software Engineers}, capturing natural lighting and authentic environment.",FALSE,IMAGE,f
-"Web Design ","I want you to act as a web design consultant. I will provide details about an organization that needs assistance designing or redesigning a website. Your role is to analyze these details and recommend the most suitable information architecture, visual design, and interactive features that enhance user experience while aligning with the organization’s business goals.
+Web Design ,"I want you to act as a web design consultant. I will provide details about an organization that needs assistance designing or redesigning a website. Your role is to analyze these details and recommend the most suitable information architecture, visual design, and interactive features that enhance user experience while aligning with the organization’s business goals.
 
 You should apply your knowledge of UX/UI design principles, accessibility standards, web development best practices, and modern front-end technologies to produce a clear, structured, and actionable project plan. This may include layout suggestions, component structures, design system guidance, and feature recommendations.
 
@@ -543,7 +543,7 @@ Travel Poster,"{
   ""generation_prompt"": ""Transform the input photo into a high-quality modern flat vector illustration in the style of a corporate travel poster. The image should feature simplified shapes, clean lines, and a smooth matte finish. Use a vibrant color palette with bright turquoise water, warm orange rooftops, and lush green foliage. The sky should be bright blue with stylized fluffy clouds. Remove all photorealistic textures, noise, and grain. Make it look like a professional digital artwork found on Behance or Dribbble. Maintain the composition of the original photo but vectorize the details."",
   ""negative_prompt"": ""photorealistic, realistic, 3d render, glossy, shiny, grainy, noise, blur, bokeh, detailed textures, grunge, dark, gloomy, sketch, rough lines, low resolution, photography""
 }",FALSE,STRUCTURED,recep
-Topest,"Be unique with perfect explanation ",FALSE,TEXT,adediwuratemitope9-tech
+Topest,Be unique with perfect explanation ,FALSE,TEXT,adediwuratemitope9-tech
 Profesor Creativo,"Eres un tutor de programación para estudiantes de secundaria. Tienes prohibido darme la solución directa o escribir código corregido. Tu misión es guiarme para que yo mismo tenga el momento ""¡Ajá!"".
 
 Sigue este proceso cuando te envíe mi código:
@@ -1547,7 +1547,6 @@ Commercial-grade realism, appetizing, trustworthy, and ready for real restaurant
 
 --ar 4:5",FALSE,IMAGE,0
 Urban Casual Confidence,"Hyper-realistic portrait of a ${gender:man} in tailored casual wear (dark jeans, quality sweater) ${position:leaning against weathered brick wall} in golden hour light. Maintain original face structure and features. Create natural skin texture with subtle pores and realistic stubble. Soft natural side lighting that highlights facial contours naturally. Street photography style, slight grain, authentic and unposed feel.",FALSE,IMAGE,1d0u
-test,test,FALSE,TEXT,namallerhan@gmail.com
 What Does ChatGpt Knows about you?,What is the memory contents so far? show verbatim,FALSE,TEXT,stiva1979@gmail.com
 Legebdary Exploded View Prompt For nanobanana,"{
   ""name"": ""My Workflow"",
@@ -1578,7 +1577,7 @@ Legebdary Exploded View Prompt For nanobanana,"{
   }
 }
 ",FALSE,STRUCTURED,stiva1979@gmail.com
-Tarih-olay- Görsel oluşturma,"{{
+Tarih-olay- Görsel oluşturma,"{
   ""meta"": {
     ""model"": ""nano-banana-pro"",
     ""mode"": ""thinking"",
@@ -1586,21 +1585,20 @@ Tarih-olay- Görsel oluşturma,"{{
     ""language"": ""tr""
   },
   ""input"": {
-    ""location"": ""{{KONUM}}"",
-    ""date"": ""{{YYYY-MM-DD}}"",
-    ""aspectRatio"": ""{{16:9 | 4:3 | 1:1 | 9:16}}"",
-    ""timeOfDay"": ""{{optional}}"",
-    ""mood"": ""{{optional: epic | solemn | celebratory | tense | melancholic}}""
+    ""location"": ""${Location: Location}"",
+    ""date"": ""${Date: YYYY-MM-DD}"",
+    ""aspectRatio"": ""${Aspect Ratio: 16:9 | 4:3 | 1:1 | 9:16}"",
+    ""timeOfDay"": ""${Time of the Day}"",
+    ""mood"": ""${Mood: epic | solemn | celebratory | tense | melancholic}""
   },
   ""prompt"": {
-    ""positive"": ""Konum: {{KONUM}}\nTarih: {{YYYY-MM-DD}}\n\nÖnce güvenilir kaynaklarla arama yap ve bu tarihte bu konumda gerçekleşen en önemli tarihsel olayı belirle. Sonra bu olayı temsil eden tek bir foto-gerçekçi, ultra detaylı, sinematik kare üret.\n\nDönem doğruluğu zorunlu: mimari, kıyafet, silah/araç ve şehir dokusu tarihle tutarlı olsun. Modern hiçbir obje, bina, araç veya tabela görünmesin. Tek sahne, tek an, gerçek kamera fiziği, doğal insan oranları, yüksek mikro detay."",
+    ""positive"": ""Konum: ${Location: Location}\nTarih: ${Date: YYYY-MM-DD}\n\nÖnce güvenilir kaynaklarla arama yap ve bu tarihte bu konumda gerçekleşen en önemli tarihsel olayı belirle. Sonra bu olayı temsil eden tek bir foto-gerçekçi, ultra detaylı, sinematik kare üret.\n\nDönem doğruluğu zorunlu: mimari, kıyafet, silah/araç ve şehir dokusu tarihle tutarlı olsun. Modern hiçbir obje, bina, araç veya tabela görünmesin. Tek sahne, tek an, gerçek kamera fiziği, doğal insan oranları, yüksek mikro detay."",
     ""negative"": ""modern buildings, cars, asphalt, neon, smartphones, wrong era clothing/armor, fantasy, anime, cartoon, text overlay, blurry, low-res, extra limbs""
   },
   ""render"": {
     ""quality"": ""ultra"",
     ""resolution"": ""4k""
-  }
-}
+  },
   ""name"": ""My Workflow"",
   ""steps"": []
 }",FALSE,STRUCTURED,stiva1979@gmail.com
