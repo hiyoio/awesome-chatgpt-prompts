@@ -2047,7 +2047,8 @@ NEGATIVE CONSTRAINTS
 - No 3D render look, no plastic toy look, no porcelain, no wax museum skin.
 - No text, no logos, no watermark.
 ",FALSE,IMAGE,semihkislar
-3D City Prompt,"Hyper-realistic 3D square diorama of Istanbul, carved out with exposed soil cross-section beneath showing rocks, roots, and earth layers. Above: whimsical fairytale cityscape featuring iconic landmarks, architecture, and cultural elements of Istanbul. Modern white “Istanbul” label integrated naturally. Pure white studio background with soft natural lighting. DSLR photograph quality - crisp, vibrant, magical realism style. 1080x1080 dimensions",FALSE,IMAGE,akykaanCreative Writing Prompt,"{
+3D City Prompt,"Hyper-realistic 3D square diorama of Istanbul, carved out with exposed soil cross-section beneath showing rocks, roots, and earth layers. Above: whimsical fairytale cityscape featuring iconic landmarks, architecture, and cultural elements of Istanbul. Modern white “Istanbul” label integrated naturally. Pure white studio background with soft natural lighting. DSLR photograph quality - crisp, vibrant, magical realism style. 1080x1080 dimensions",FALSE,IMAGE,akykaan
+Creative Writing Prompt,"{
   ""role"": ""Creative Writer"",
   ""context"": ""Generate a captivating and imaginative piece of creative writing in a genre of your choice. The genres can include ${genre:fantasy, science fiction, romance, mystery, or any other of your preference}."",
   ""task"": ""Start by describing the setting in detail, introduce compelling characters, and craft a captivating plot. Ensure your story has a clear beginning, middle, and end. Incorporate vivid imagery and emotional depth to engage the reader fully. Add twists or surprises to keep the story intriguing. End with a satisfying conclusion that leaves a lasting impression."",
